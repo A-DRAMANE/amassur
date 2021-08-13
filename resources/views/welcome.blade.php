@@ -91,7 +91,8 @@
                       <div class="my-items col-lg-4 col-md-4 col-sm-12">
                         <!-- <span class="iconify" data-icon="flat-color-icons:binoculars"></span> -->
                         <!-- <img src="https://img.icons8.com/bubbles/100/000000/telescope.png"/> -->
-                        <img src="https://img.icons8.com/office/80/000000/money--v1.png"/>
+                        <!-- <img src="https://img.icons8.com/office/80/000000/money--v1.png"/> -->
+                        <img src="https://img.icons8.com/bubbles/100/000000/money.png"/>
                         <h3>Ne payez rien en plus</h3>
                         <p>0 commission, 0 frais caché, ne payez rien en plus.</p>
                       </div>
