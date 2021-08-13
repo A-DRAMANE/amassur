@@ -268,3 +268,22 @@ svg{
         padding: 15px !important;
     }
 }
+
+@media screen and (max-width:992px ){
+    .block-cartes{
+        position: relative !important;
+        top: -190px !important;
+    }
+    .my-head{
+        padding-top: 0 !important;
+        margin-bottom: 475px !important;
+    }
+}
+@media screen and (max-width:768px ) {
+    .my-header-titles{
+        left: 25px !important;
+    }
+    .service-27 .owl-nav{
+        left: 112px;
+    }
+}

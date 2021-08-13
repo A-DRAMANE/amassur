@@ -18,7 +18,7 @@
 
     <div class="container block-cartes">
         <div class="row">
-            <div class="col-md-6 offset-md-6">
+            <div class="col-lg-6 md-md-12 col-sm-12 offset-lg-6  offset-md-0  offset-sm-0">
  
              <h2 class="display-4  font-weight-bold">Bonjour,</h2>
              <p class="lead font-weight-bold">que pouvons-nous faire pour vous </p>
@@ -62,7 +62,7 @@
   
 
 
-  <div style="margin-bottom: 77px;" class="header">
+  <div style="margin-bottom: 77px;" class="header my-head">
     <div class="container">
         <div class="header__dtop">
           
@@ -90,7 +90,8 @@
                       </div>
                       <div class="my-items col-lg-4 col-md-4 col-sm-12">
                         <!-- <span class="iconify" data-icon="flat-color-icons:binoculars"></span> -->
-                        <img src="https://img.icons8.com/bubbles/100/000000/telescope.png"/>
+                        <!-- <img src="https://img.icons8.com/bubbles/100/000000/telescope.png"/> -->
+                        <img src="https://img.icons8.com/office/80/000000/money--v1.png"/>
                         <h3>Ne payez rien en plus</h3>
                         <p>0 commission, 0 frais caché, ne payez rien en plus.</p>
                       </div>
@@ -317,7 +318,7 @@
   </div>
 
   <div class="header__tiles my-header-titles">
-  <a class="header__tile col-4" href="{{route('a-propos')}}#avt">
+  <a class="header__tile col-lg-4 col-md-4 col-sm-12" href="{{route('a-propos')}}#avt">
                   <span>
                   <div class="card ">
                             <div class="row"> 
@@ -332,7 +333,7 @@
                           </div>
                   </span>
               </a>
-              <a class="header__tile col-4" href="{{route('a-propos')}}#ccm">
+              <a class="header__tile col-lg-4 col-md-4 col-sm-12" href="{{route('a-propos')}}#ccm">
                   <span>
                   <div class="card">
                           <div class="row"> 
@@ -347,7 +348,7 @@
                         </div>
                   </span>
               </a>
-              <a class="header__tile col-4" href="#contact">
+              <a class="header__tile col-lg-4 col-md-4 col-sm-12" href="#contact">
                 <span>
                 <div class="card">
                           <div class="row"> 

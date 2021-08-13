@@ -44,7 +44,7 @@
         </div>
     </div>
 </section> -->
-<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
 <section>
   <div style="background-image: url('{{Voyager::image($particulier->image)}}')" class="row cat-page">
     <h1>Assurance {{$particulier->titre}}</h1>
@@ -214,5 +214,5 @@
 
   </div>
 </section>
-
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 @endsection
