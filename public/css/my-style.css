@@ -3,10 +3,18 @@ body {
 }
 
 .my-icons {
-  background-color: white;
   -webkit-transition: 1s;
   transition: 1s;
+  background-color: white;
   min-height: 120px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px !important;
+}
+
+.my-icons svg {
+  color: #313984;
 }
 
 .space {
@@ -65,7 +73,6 @@ svg {
 
 .my-btn-playStore .playStore {
   height: 28px;
-  width: 23%;
   display: inline-block;
 }
 
@@ -325,5 +332,52 @@ svg {
   .my-head {
     margin-bottom: 475px !important;
   }
+}
+
+.my-descrip {
+  position: relative;
+  width: 55vw;
+  color: #000000;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.my-descrip div {
+  max-width: 60%;
+}
+
+.my-descrip span {
+  color: black;
+  font-weight: bold;
+}
+
+.service {
+  font-weight: bold;
+  margin-top: 46px;
+  font-size: 25px;
+  color: #313984;
+}
+
+.color-change {
+  color: #2b303cb5 !important;
+}
+
+.color-bottom {
+  color: #0641c2c4 !important;
+}
+
+.carousel::after {
+  top: 57% !important;
+}
+
+.montrer {
+  position: relative;
+  z-index: 1;
 }
 /*# sourceMappingURL=my-style.css.map */

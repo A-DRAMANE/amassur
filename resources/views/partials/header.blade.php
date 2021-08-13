@@ -14,13 +14,13 @@
              </li> -->
              
              <li class="nav-item">
-             <a class="nav-link text-uppercase" href="{{route('particulier.show',['particulier'=>$particuliers[0]->slug])}}"> <i class="fa fa-users" aria-hidden="true"></i> Partiuliers</a>
+             <a class="nav-link text-uppercase" href="{{route('particulier.show',['particulier'=>$particuliers[0]->slug])}}"> <i class="fa fa-users" aria-hidden="true"></i> Particuliers</a>
              </li>
              <li class="nav-item">
              <a class="nav-link text-uppercase" href="{{route('professionnel.show',['professionnel'=>$professionnels[0]->slug])}}"> <i class="fa fa-briefcase" aria-hidden="true"></i> Professionnels</a>
              </li>
              <li class="nav-item">
-             <a class="nav-link text-uppercase" href="{{route('a-propos')}}"> <i class="fa fa-info-circle" aria-hidden="true"></i> A-propos</a>
+             <a class="nav-link text-uppercase" href="{{route('a-propos')}}"> <span style="width: 20px;height: 20px;" class="iconify" data-icon="ic:round-contact-phone"></span> Contact</a>
              </li>
 
              <!-- <li class="nav-item dropdown">

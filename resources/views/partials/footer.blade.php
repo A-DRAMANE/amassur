@@ -113,7 +113,7 @@
     <div class="row justify-content-around bg-my">
       <div class="footer-copyright text-center py-3">© 2020 Copyright <a href="https://switch-maker.com/"> Switch Maker</a> | Tous droits réservés    </div>
       <div style="padding: 15px;" class="">
-        <a href="#">mention légale</a> | <a href="#">condition d'utilisation</a>
+        <a href="#">ention légale</a> | <a href="#">Condition d'utilisation</a>
       </div>
     </div>
     

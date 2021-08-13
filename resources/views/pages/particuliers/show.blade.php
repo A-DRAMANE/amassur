@@ -55,7 +55,7 @@
 <section>
   <div class="container space cont1">
     <div class="row justify-content-center align-items-center">
-      <h4>Pourquoi choisir notre {{$particulier->titre}} AMASSUR ?</h2>
+      <h4>Pourquoi souscrire à une assurance {{$particulier->titre}} avec AMASSUR ?</h2>
     </div>
 
     <div class="row justify-content-center align-items-center">
@@ -73,17 +73,17 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-4 text-center">
+      <div class="col-lg-4 text-center ">
         <span style="width: 50px;height: 50px;color: #3737a7;" class="iconify" data-icon="{{$particulier->icon1}}"></span>
         <h6>{{$particulier->titre_icon1}}</h6>
         <p>{{$particulier->text_icon1}}</p>
       </div>
-      <div class="col-lg-4 text-center">
+      <div class="col-lg-4 text-center ">
         <span style="width: 50px;height: 50px;color: #3737a7;" class="iconify" data-icon="{{$particulier->icon2}}"></span>
         <h6>{{$particulier->titre_icon2}}</h6>
         <p>{{$particulier->text_icon2}}</p>
       </div>
-      <div class="col-lg-4 text-center">
+      <div class="col-lg-4 text-center ">
         <span style="width: 50px;height: 50px;color: #3737a7;" class="iconify" data-icon="{{$particulier->icon3}}"></span>
         <h6>{{$particulier->titre_icon3}}</h6>
         <p>{{$particulier->text_icon3}}</p>

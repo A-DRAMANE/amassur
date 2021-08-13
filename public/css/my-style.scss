@@ -3,9 +3,17 @@ body{
     // overflow-y: auto;
 }
 .my-icons{
-    background-color: rgb(255, 255, 255);
     transition: 1s;
+    background-color: white;
     min-height: 120px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    // color: #e01d41 !important
+    padding: 5px !important;
+    svg{
+        color: #313984;
+    }
 }
 .space{
     padding: 50px 0 50px 0;
@@ -55,7 +63,7 @@ svg{
 
     .playStore{
         height: 28px;
-        width: 23%;
+        // width: 23%;
         display: inline-block;
     }
     span{
@@ -288,4 +296,42 @@ svg{
     .my-head{
         margin-bottom: 475px !important;
     }
+}
+
+.my-descrip{
+    position: relative;
+    width: 55vw;
+    color: #000000;
+    // font-weight: bold;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: end;
+    div{
+        max-width: 60%;
+    }
+
+    span{
+        color: black;
+        font-weight: bold;
+    }
+}
+.service{
+    font-weight: bold;
+    margin-top: 46px;
+    font-size: 25px;
+    color: #313984;
+}
+.color-change{
+    color: #2b303cb5 !important;
+}
+.color-bottom{
+    color: #0641c2c4 !important;
+}   
+.carousel::after{
+    top: 57% !important;
+}
+.montrer{
+    position: relative;
+    z-index: 1;
 }

@@ -29,7 +29,7 @@
                 @foreach ($particuliers as $particulier)
                 <div  class="col-md-3">
                   <a href="{{route('particulier.show',['particulier'=>$particulier->slug])}}">
-                     <div style="font-size: 13px;" class="shadow p-3 mb-5 rounded-lg text-center my-icons" >
+                     <div class="shadow p-3 mb-5 rounded-lg text-center my-icons" >
                          <!-- <i class="fa fa- fa-3x"></i> -->
                          <span style="width: 40px;height: 56px;" class="iconify" data-icon="{{$particulier->icone}}"></span><br>
                          <span>{{$particulier->titre}}</span>
@@ -266,7 +266,7 @@
           <h1 class="pb-4">Amassur <small>néo-courtier</small> </h1>
           <!-- <h4 class="my-3">Une application mobile pour vous faciliter la vie</h4> -->
           <p class="mt-3">
-            Assurez-vous en ligne depuis l’application mobile entière pensez pour vous, 
+            Assurez-vous en ligne depuis l’application mobile entièrement pensée pour vous, 
             Il n’est plus nécessaire de se déplacer dans une agence pour gérer votre contrat 
             de protection. Nous vous procurons du confort et un gain de temps non négligeable ! 
           </p>
@@ -276,25 +276,25 @@
               <p>
                 Vous êtes assuré en temps réel. <br>
                 <ul>
-                  <li><strong>Photographiez</strong> votre carte grise, puis enregistrez-le sur votre application. <strong>Voilà, vous êtes assuré !</strong></li>
-                  <li>Aucun document à envoyer</li>
-                  <li>Paiement en direct</li>
+                  <li><strong>Photographiez</strong> votre carte grise, puis enregistrez-la sur votre application. <br> <strong>Voilà, vous êtes assuré !</strong></li>
+                  <li><strong>Aucun document à envoyer</strong> </li>
+                  <li><strong>Paiement en direct</strong></li>
                 </ul>
               </p>
             </div>
             <div class="col-md-6 mt-4">
               <h6 class="font-weight-medium my-3"> <i class="fa fa-heart fa-lg" aria-hidden="true"></i> Accompagnement humain</h6>
               <p>
-                Soyez serein, nous ne sommes jamais loin ! <br>
-                En cas de besoin ou de pépin, accédez en permanence au chat communautaire ou échangez avec un conseiller Amassur.
+                Accédez en permanence au chat communautaire ou échangez avec un conseiller Amassur en cas de besoin ou de pépin.<br>
+                <strong>Soyez serein, nous ne sommes jamais loin ! </strong> 
               </p>
             </div>
           </div>
           <div class="pt-4 text-center ">
             <a class="my-btn-playStore btn btn-outline-light btn-lg shadow-lg" href="">
-              <img class="playStore col-8 p-0" src="{{ asset('images/jeu-de-google.png') }}" alt="">
+              <img class="playStore" src="{{ asset('images/jeu-de-google.png') }}" alt="">
               <span class="col-6 p-0 text-center">
-                Disponible sur <br><span class="s2">Splay Store</span> 
+                Disponible sur Splay Store
               </span>
             </a>
           </div>
@@ -328,7 +328,7 @@
                               </div>
                               <div class="col-8">
                                 <h6 class="card-title">ACCESSIBILITÉ</h6>
-                                <p class="card-text">Partout où vous voulez,<br> quand vous voulez,<br> comme vous voulez!  </p>
+                                <p class="card-text">Partout où vous voulez,<br> Quand vous voulez,<br> Comme vous voulez!  </p>
                               </div>    
                             </div>
                           </div>
@@ -358,7 +358,7 @@
                             </div>
                             <div class="col-8">
                               <h6 class="card-title">JOIGNABILITÉ</h6>
-                              <p class="card-text">Le service clients est a <br> votre écoute 24h/24 7j/7 <br> et présent sur les réseaux <br> sociaux</p>
+                              <p class="card-text">Le service client est <br>à votre écoute, présent <br>  sur les réseaux sociaux<br> 24h/24 et 7j/7 </p>
                             </div>    
                           </div>
                         </div>
@@ -374,8 +374,8 @@
         <div class="container">
             <!-- Row  -->
             <div class="row">
-                <div style="padding-top: 37px;" class="col-md-12 pb-5">
-                    <span class="text-info-gradiant display-5">Comment ça marche </span>
+                <div style="padding-top: 37px;" class="col-md-12 pb-5">$^^
+                    <span class="text-info-gradiant display-5">Comment ça marche ?</span>
                 </div>
             </div>
             
@@ -393,8 +393,8 @@
                                 <div class="col-12">
                                     <h6 class="card-title">Télécharger l'application mobile</h6>
                                     <p class="card-text">
-                                      L'attente interminable au téléphone ? Le jargon d'assureur ? C'est terminé. Télécharger,
-                                      Découvrez et Assurez-vous ! Ou vous voulez zt quand vous voulez  </p>
+                                      L'attente interminable au téléphone ? Le jargon d'assureur ? c'est terminé ! Téléchargez,
+                                      Découvrez et Assurez-vous ! <br> Où vous voulez et quand vous voulez  </p>
                                 </div>    
                             </div>
                         </div>
@@ -408,8 +408,8 @@
                                 <div class="col-12">
                                     <h6 class="card-title">Obtenez une simulation d'assurance selon vos besoins</h6>
                                     <p class="card-text">
-                                      Adieu paperasse, bonjour à l'assurance mobile sur-mesure! Du bout du doit 
-                                      définissez l'assurance qui s'adapte vraiment à vous.
+                                      Adieu la paperasse, bonjour à l'assurance mobile sur-mesure! <br> Du bout du doigt, 
+                                      définissez l'assurance qui s'adapte le mieux à vous.
                                     </p>
                                 </div>    
                             </div>
@@ -422,10 +422,10 @@
                                 <img src="https://img.icons8.com/clouds/100/000000/ok.png"/>
                                 </div>
                                 <div class="col-12">
-                                    <h6 class="card-title">Validez, vous voilà déjà (r)assuré,e!</h6>
+                                    <h6 class="card-title">Validez, vous voilà déjà assuré(e) <br> et rassuré(e) !</h6>
                                     <p class="card-text">
-                                      Quelle que soir l'heure, quel que soit le jour (même le dimanche!),
-                                      dès votre inscription vous bénéficiez immédiatement de toutes les garanties incluse
+                                      Quellle que soit l'heure, quel que soit le jour, 
+                                      dès votre inscription vous bénéficiez immédiatement de toutes les garanties incluses
                                       dans votre contrat.
                                     </p>
                                 </div>    
@@ -446,7 +446,7 @@
 <section class="pt-5 pb-5">
  <div class="container pt-3">
      <div class="row">
-         <div class="col">
+         <div class="col montrer">
             <span class="text-info-gradiant display-5"><i class="fa fa-briefcase" aria-hidden="true"></i>  Nos Partenaires</span>
         
          </div>
@@ -479,12 +479,19 @@
     <div class="row">
         <div class="col-md-6">
             <p class="header__blurb text-muted" style="font-size:17px;"> <br><br> 
-              Courtier en assurance, Amassur accompagne ses clients entreprises et particuliers 
-              dans la gestion de leurs risques. Partenaire de courtiers de renommée internationale, 
-              Amassur se positionne aujourd’hui en leader et acteur majeur du marché burkinabè et 
-              met la compétence de ses équipes et de son organisation à votre service. <br><br>
-              Analyser, étudier, anticiper, gérer vos risques, et vous conseiller, tels sont les 
+              AMASSUR société de courtage en assurrance, accompagne ses clients (entreprises et particuliers) 
+              dans la gestion de leurs risques. Partenaire de courtiers de renommées internationales, 
+              Amassur se positionne aujourd’hui en leader et acteur majeur du marché burkinabè. 
+              Elle met la compétence de ses équipes et de son organisation à votre service. <br><br>
+              <span class='color-bottom'>
+                Analyser, Etudier, Anticiper, Gérer vos risques, et vous Conseiller, <br> tels sont les 
+                engagements professionnels des collaborateurs de Amassur                
               engagements professionnels des collaborateurs de Amassur
+                engagements professionnels des collaborateurs de Amassur                
+              engagements professionnels des collaborateurs de Amassur
+                engagements professionnels des collaborateurs de Amassur                
+              </span>
+
             </p>
             <p class="header__blurb text-fine text-muted" style="font-size:16px;">Oubliez tout ce que vous pensez savoir sur les assurances, nous vous guidons !</p>
         </div>
@@ -608,7 +615,7 @@
         </div>
         <div class="col-lg-5">
             <span class="text-info-gradiant display-5"><small>la newsletter</small></span>
-          <h4 class="my-3">Restez informé des nouvelles et à venir</h4>
+          <h4 class="my-3 color-change">Restez informé des nouvelles et à venir</h4>
           <h6 class="subtitle mt-5 font-weight-normal">En plus de l'actualité du blog, nous vous notifierons sur les nouvelles offres d'assurances et nos partenariats.</h6>
           <form class="mt-4">
             <div class="form-group">
