@@ -1,0 +1,270 @@
+body{
+    overflow-x: hidden;
+    // overflow-y: auto;
+}
+.my-icons{
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    min-height: 120px;
+}
+.space{
+    padding: 50px 0 50px 0;
+}
+  
+svg{
+    transition: 1s;
+}
+
+.my-icons:hover{
+    background-color: #313984;
+    color: white !important;
+
+    svg{
+        width: 56px !important;
+        color: white !important;
+    }
+}
+
+.my-items-container{
+    max-height: 200px;
+
+    .my-items svg{
+        width: 60px;
+        height: 60px;
+        color: #115;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .my-items h3{
+        padding: 10px 0px 10px 0px;
+    }
+    .my-items p{
+        padding: 10px 0px 0px 0px;
+    }
+    h3{
+        font-size: 21px;
+        color: #0e0e68;
+    }
+}
+.my-btn-playStore{
+    // background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s;
+    font-weight: bold !important;
+    color: #ffffff !important;
+
+    .playStore{
+        height: 28px;
+        width: 23%;
+        display: inline-block;
+    }
+    span{
+        font-size: 11px;
+    }
+    .s2{
+        font-size: 18px;
+    }
+}
+.my-btn-playStore:hover{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.app-carousel .owl-item img{
+    max-height: 800px;
+}
+
+.my-header-titles:hover{
+    // margin-bottom: -62px;
+    // box-shadow: none !important;
+    // position: relative;
+    // z-index: 1;
+    // margin-bottom: 10px;
+    a{
+        background: transparent !important;
+        box-shadow: none !important;
+    } 
+}
+.my-header-titles{
+    position: relative;
+    bottom: -8px;
+    left: 84px;
+    width: 86%;
+    border: transparent;
+    a{
+        border: transparent;
+    }
+    .card{
+        border: transparent !important;
+    }
+    .card p{
+        color: black;
+        font-size: 17px;
+    }   
+    .header__tile{
+        // border-color: #fff !important;      
+        height: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        .col-8{
+            padding-right: 34px;
+            text-align: end;
+            h6{
+                color: #0e0e68 !important;
+                font-weight: bold;
+            }
+        }  
+    } 
+}
+.txt{
+    text-align: start;
+    color: blue;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.my-cards{
+
+    color: black !important;
+    text-align: center;
+ 
+    .card .icon2, .card p, .card h6{
+        text-align: center;
+    }
+    .card{
+        min-height: 320px;
+        h6{
+            font-size: 17px;
+            color: #7950d9;
+            font-weight: bold;
+        }
+    }
+}
+
+.icon2 svg{
+    width: 69px;
+    height: 74px;
+    margin-bottom: 5px;
+    color: #6f43d6;
+}
+
+.service-27{
+    .owl-nav{
+        bottom: 53px;
+        position: relative;
+        left: 147px;
+        i{
+            font-size: 30px;
+        }
+    }    
+}
+.owl-nav{
+    i{
+        font-size: 30px;
+    }
+}    
+
+
+///categories
+.cat-page{
+    position: relative;
+    height: 156px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        color: white;
+    }
+}
+.cont1{
+    
+    font-size: 17px;
+    h4{
+      color: #00008f;  
+      font-size: 26px;
+      text-align: center;
+    }
+    hr{
+        max-width: 62px;
+        border-top: 2px solid rgb(0, 0, 143);
+    }
+    h6{
+        font-weight: bold;
+        color: #00008f;
+        font-size: 17px;
+    }
+    .font2 p{
+        font-size: 16px;
+    }
+}
+.cont2{
+
+    h5{
+        width: 100%;
+        height: 96px;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #3032c1;
+        font-weight: bold;
+        margin: 0%;
+    }
+    .cont2-1{
+        width: 80%;
+        p{
+            min-height: 320px;
+            border-bottom: 1px solid #80808091;
+            font-size: 15px;
+            padding-top: 10px;
+        }
+    }
+    .containt1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 1px solid #8080804f;
+        border-top: transparent;
+        box-shadow: 0 .6rem .8rem 0 rgba(0,0,0,.07);
+
+        .my-div{
+            color: #3032c1;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+
+}
+
+.my-tag-btn{
+    width: 230px;
+    background-color: #ff6500;
+    color: white;
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 0px !important;
+    font-weight: bolder;
+    text-align: initial;
+}
+.my-tag-btn:hover{
+    background-color: #b13601;
+    border-color: transparent;
+}
+.bg-my{
+    background-color: #12161f;
+
+    div{
+        background-color: transparent !important;
+        padding: 15px !important;
+    }
+}
